@@ -1,5 +1,8 @@
 body {
     cursor: url('../cursor.png') 0 0, auto;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(to right, rgb(84, 150, 241), rgb(164, 254, 236), transparent)
 }
 h1 {
     font-family: Fascinate, Arial, Helvetica, sans-serif;
