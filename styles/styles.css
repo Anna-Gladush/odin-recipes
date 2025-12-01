@@ -1,3 +1,6 @@
+body {
+    cursor: url('../cursor.png') 0 0, auto;
+}
 body, html {
     height: 100%;
     overflow: hidden;
@@ -16,15 +19,26 @@ body, html {
     text-align: center;
     background-color: rgba(255, 255, 255);
     border-radius: 15px;
+    border: 5px solid rgb(48, 125, 133);
     color: black;
     position: absolute;
     top: 70px;
     left: 35%;
     width: 450px;
     height: 570px;
+    line-height: 36px;
+    
+}
+a {
+    color: rgb(48, 125, 133);
+    cursor: url('../click.png') 0 0, auto;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 .head {
-    font-family: "Lucida Handwriting", Arial, Helvetica, sans-serif;
+    font-family: Fascinate,"Lucida Handwriting", Arial, Helvetica, sans-serif;
     color: midnightblue;
     font-size: 50px;
     margin-top: 40px;
@@ -37,12 +51,14 @@ body, html {
 div.list {
     text-align: center;
     font-size: large;
-    font-family: Papyrus, Arial, Helvetica, sans-serif;
+    font-family: Bagel Fat One, Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: cornflowerblue;
+    
 }
 ul {
     display: inline-block;
     text-align: left;
     list-style-type: circle;
+    
 }

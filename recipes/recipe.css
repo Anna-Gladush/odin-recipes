@@ -1,3 +1,6 @@
+body {
+    cursor: url('../cursor.png') 0 0, auto;
+}
 h1 {
     font-family: Fascinate, Arial, Helvetica, sans-serif;
     color: midnightblue;
@@ -25,4 +28,5 @@ img {
     border: 5px solid cornflowerblue;
     border-radius: 20px;
     padding: 5px 20px;
+    cursor: url('../click.png') 0 0, auto;
 }
