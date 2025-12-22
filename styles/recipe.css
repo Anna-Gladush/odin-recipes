@@ -1,5 +1,8 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 body {
-    cursor: url('../cursor.png') 0 0, auto;
+    cursor: url('../images/cursor.png') 0 0, auto;
     background-color: #e5e5f7;
     opacity: 0.8;
     background-image:  linear-gradient(to right, rgb(84, 150, 241), rgb(164, 254, 236), transparent)
@@ -31,5 +34,5 @@ img {
     border: 5px solid cornflowerblue;
     border-radius: 20px;
     padding: 5px 20px;
-    cursor: url('../click.png') 0 0, auto;
+    cursor: url('../images/click.png') 0 0, auto;
 }

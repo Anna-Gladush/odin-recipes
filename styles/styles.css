@@ -1,5 +1,5 @@
 body {
-    cursor: url('../cursor.png') 0 0, auto;
+    cursor: url('../images/cursor.png') 0 0, auto;
 }
 body, html {
     height: 100%;
@@ -7,7 +7,7 @@ body, html {
 }
 .main {
     /* background-image: linear-gradient(to bottom right, #ffff4d, #4dff4d, #66b3ff); */
-    background-image: url(css-pattern1.png);
+    background-image: url(../images/css-pattern1.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ body, html {
 }
 a {
     color: rgb(48, 125, 133);
-    cursor: url('../click.png') 0 0, auto;
+    cursor: url('../images/click.png') 0 0, auto;
 }
 a:hover, a:visited, a:link, a:active
 {
@@ -61,4 +61,11 @@ ul {
     text-align: left;
     list-style-type: circle;
     
+}
+.site {
+    padding-top: 5px;
+    color: midnightblue;
+}
+.site-link {
+    color: rgb(57, 57, 151);
 }
