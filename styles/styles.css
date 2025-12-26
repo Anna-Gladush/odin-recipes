@@ -5,6 +5,11 @@ body, html {
     height: 100%;
     overflow: hidden;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main {
     /* background-image: linear-gradient(to bottom right, #ffff4d, #4dff4d, #66b3ff); */
     background-image: url(../images/css-pattern1.png);
@@ -23,7 +28,6 @@ body, html {
     color: black;
     position: absolute;
     top: 70px;
-    left: 35%;
     width: 450px;
     height: 570px;
     line-height: 36px;
@@ -63,6 +67,7 @@ ul {
     
 }
 .site {
+    font-size: 25px;
     padding-top: 5px;
     color: midnightblue;
 }
